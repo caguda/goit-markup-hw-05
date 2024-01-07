@@ -83,6 +83,7 @@ body {
   align-items: flex-start;
   /* display: inline-flex; */
   position: relative;
+  padding: 24px 0;
   gap: 40px;
 }
 
@@ -98,7 +99,7 @@ body {
 
 .link {
   text-decoration: none;
-  padding: 24px 0;
+  /* padding: 24px 0; */
   /* color: #4d5ae5; */
 }
 
@@ -120,6 +121,7 @@ body {
   display: flex;
   position: relative;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .address-menu {
