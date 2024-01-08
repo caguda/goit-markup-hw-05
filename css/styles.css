@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
 }
@@ -35,35 +35,6 @@ body {
 /* header {
   border-bottom: 1px solid #e7e9fc;
 } */
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.nav-con {
-  display: flex;
-  /* gap: 76px; */
-  /* margin-right: 76px; */
-}
-
-.main-header {
-  background: var(--WHITE: #fff);
-  /* padding: 24px 0 24px; */
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-/* header contrainer */
-.main-header-con {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -79,21 +50,51 @@ body {
   display: flex;
   flex-shrink: 0;
 }
-/* for studio, portfolio, contacts  */
 
-.nav-menu-con {
-  display: flex;
-  align-items: flex-start;
-  /* display: inline-flex; */
-  position: relative;
-  padding: 24px 0;
-  gap: 40px;
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .nav-con {
   display: flex;
+  /* gap: 76px; */
+  /* margin-right: 76px; */
+}
+
+.main-header {
+  /* background: var(--WHITE: #fff); */
+  /* padding: 24px 0 24px; */
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+/* header contrainer */
+.main-header-con {
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* for studio, portfolio, contacts  */
+
+.nav-menu-con {
+  display: flex;
+  /* align-items: flex-start; */
+  /* display: inline-flex; */
+  /* position: relative; */
+  padding: 24px 0;
+  gap: 40px;
+}
+
+.nav-con,
+.contacts {
+  display: flex;
   align-items: center;
-  gap: 76px;
+  /* gap: 76px; */
 }
 
 .navtext {
@@ -117,6 +118,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 /* .nav-menu .link {
@@ -153,7 +155,7 @@ body {
 .contacts-con {
   align-items: flex-start;
   display: flex;
-  position: relative;
+  /* position: relative; */
   gap: 40px;
   padding: 24px 0;
 }
