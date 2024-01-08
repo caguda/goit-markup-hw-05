@@ -145,6 +145,7 @@ body {
   height: 4px;
   background-color: var(--ocean);
   border-radius: 2px;
+  bottom: -1px;
   width: 100%;
 }
 
@@ -397,6 +398,8 @@ p,
   display: flex;
   align-items: center;
   justify-content: center;
+  /* HW5 */
+  transition: background-color:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socmed-link:hover,
@@ -433,6 +436,8 @@ p,
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  /* HW5 */
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -504,6 +509,8 @@ p,
   display: flex;
   align-items: center;
   justify-content: center;
+  /* HW5 */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socmed-link:hover,
